@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		9DAC5C0B1FB93F1900D835A5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DAC5C0A1FB93F1900D835A5 /* main.m */; };
+		9DAC5C131FB93F4500D835A5 /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DAC5C121FB93F4500D835A5 /* Player.m */; };
+		9DAC5C161FB93F7100D835A5 /* PlayerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DAC5C151FB93F7100D835A5 /* PlayerManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,10 @@
 /* Begin PBXFileReference section */
 		9DAC5C071FB93F1900D835A5 /* W1D5 - Snakes&Ladders */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "W1D5 - Snakes&Ladders"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DAC5C0A1FB93F1900D835A5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9DAC5C111FB93F4500D835A5 /* Player.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
+		9DAC5C121FB93F4500D835A5 /* Player.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Player.m; sourceTree = "<group>"; };
+		9DAC5C141FB93F7100D835A5 /* PlayerManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlayerManager.h; sourceTree = "<group>"; };
+		9DAC5C151FB93F7100D835A5 /* PlayerManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlayerManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +63,11 @@
 		9DAC5C091FB93F1900D835A5 /* W1D5 - Snakes&Ladders */ = {
 			isa = PBXGroup;
 			children = (
+				9DAC5C111FB93F4500D835A5 /* Player.h */,
+				9DAC5C121FB93F4500D835A5 /* Player.m */,
 				9DAC5C0A1FB93F1900D835A5 /* main.m */,
+				9DAC5C141FB93F7100D835A5 /* PlayerManager.h */,
+				9DAC5C151FB93F7100D835A5 /* PlayerManager.m */,
 			);
 			path = "W1D5 - Snakes&Ladders";
 			sourceTree = "<group>";
@@ -119,7 +129,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9DAC5C131FB93F4500D835A5 /* Player.m in Sources */,
 				9DAC5C0B1FB93F1900D835A5 /* main.m in Sources */,
+				9DAC5C161FB93F7100D835A5 /* PlayerManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
